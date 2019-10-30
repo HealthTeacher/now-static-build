@@ -1,0 +1,16 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "description": "Site source.",
+  "main": "index.js",
+  "repository": "git@github.com:HealthTeacher/now-static-build.git",
+  "author": "David Calhoun",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "dependencies": {
+    "static-auth": "^1.1.1"
+  }
+}
