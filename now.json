@@ -1,7 +1,13 @@
 {
   "builds": [
     { "src": "packages/site/package.json", "use": "@now/static-build" },
-    { "src": "packages/site/index.js", "use": "@now/node" }
+    {
+      "src": "packages/site/index.js",
+      "use": "@now/node",
+      "config": {
+        "includeFiles": ["src/**"]
+      }
+    }
   ],
   "routes": [{ "src": "/.*", "dest": "packages/site/index.js" }]
 }
