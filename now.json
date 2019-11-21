@@ -5,7 +5,7 @@
       "src": "packages/site/index.js",
       "use": "@now/node",
       "config": {
-        "includeFiles": ["src/**"]
+        "includeFiles": ["packages/site/src/**"]
       }
     }
   ],
